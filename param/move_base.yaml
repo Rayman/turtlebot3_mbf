@@ -1,6 +1,6 @@
 planners:
-  - name: GlobalPlanner
-    type: global_planner/GlobalPlanner
+  - name: NavfnROS
+    type: navfn/NavfnROS
 
 controllers:
   - name: DWAPlannerROS
