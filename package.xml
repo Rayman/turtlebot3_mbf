@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>mbf_turtlebot</name>
+  <name>turtlebot3_mbf</name>
   <version>0.0.0</version>
   <description>Move base flex config for the turtlebot</description>
 
