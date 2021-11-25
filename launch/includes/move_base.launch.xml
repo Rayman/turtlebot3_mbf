@@ -11,5 +11,7 @@
     <rosparam file="$(find turtlebot3_navigation)/param/dwa_local_planner_params_$(arg model).yaml" command="load" />
   </node>
 
-  <node name="move_base_legacy_relay" pkg="mbf_costmap_nav" type="move_base_legacy_relay.py"/>
+  <node name="move_base_legacy_relay" pkg="mbf_costmap_nav" type="move_base_legacy_relay.py">
+    <rosparam file="$(find turtlebot3_mbf)/param/default_planner.yaml" command="load"/>
+  </node>
 </launch>
