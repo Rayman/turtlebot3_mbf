@@ -9,4 +9,9 @@
   <license>TODO</license>
 
   <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>map_server</exec_depend>
+  <exec_depend>mbf_costmap_nav</exec_depend>
+  <exec_depend>turtlebot3_bringup</exec_depend>
+  <exec_depend>turtlebot3_navigation</exec_depend>
 </package>
